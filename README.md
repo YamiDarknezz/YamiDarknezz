@@ -23,7 +23,7 @@
 
 Soy un desarrollador apasionado de Trujillo, Perú 🇵🇪, actualmente cursando el 8vo ciclo. Me encanta construir soluciones innovadoras que combinan **desarrollo web**, **inteligencia artificial**, **IoT** y **ciberseguridad**. ¡Siempre aprendiendo, siempre creando!
 
-- 🔭 Trabajos como: **Robot Cuadrúpedo con ESP32 y Transmisión de Video en Tiempo Real**
+- 🔭 Proyectos: **Robot Cuadrúpedo con ESP32 y Transmisión de Video en Tiempo Real**
 - 🌱 Aprendiendo: **IA/ML Avanzado, Arquitectura Cloud, DevOps**
 - 💼 Experiencia Profesional: **Practicante de Desarrollo en Clínica Ocupacional MedCorp**
 - 🎯 Objetivos 2025: **Contribuir a Open Source y Construir más Proyectos IoT**
