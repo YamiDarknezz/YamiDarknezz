@@ -100,14 +100,14 @@ Robot de cuatro patas con transmisión de video en tiempo real y capacidades de 
 </td>
 <td width="50%">
 
-### 🚗 Auto Autónomo con YOLO
+### 🚗 [ESP32 YOLO RC Car](https://github.com/YamiDarknezz/ESP32-YOLO-RC)
 **2023** | IA | Visión por Computadora | IoT
 
-Sistema de auto inteligente usando detección de objetos YOLO para navegación autónoma.
+Auto RC controlado remotamente con detección de objetos en tiempo real usando YOLO v8 y ESP32-CAM.
 
-**Tecnologías:** Python, YOLO, ESP32-CAM, OpenCV
+**Tecnologías:** Python, YOLOv8, ESP32-CAM, OpenCV, Tkinter
 
-</td>
+</tr>
 </tr>
 <tr>
 <td width="50%">
