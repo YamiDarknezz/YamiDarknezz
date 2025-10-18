@@ -90,7 +90,7 @@ Soy un desarrollador apasionado de Trujillo, Perú 🇵🇪, actualmente cursand
 <tr>
 <td width="50%">
 
-### 🤖 Robot Cuadrúpedo ESP32
+### 🤖 [Robot Cuadrúpedo ESP32](https://github.com/YamiDarknezz/esp32-quadruped-robot)
 **2025** | ESP32 | ESP32-CAM | IoT
 
 Robot de cuatro patas con transmisión de video en tiempo real y capacidades de control remoto.
