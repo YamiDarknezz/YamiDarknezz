@@ -122,12 +122,12 @@ Aplicación distribuida con gestión de usuarios y almacenamiento MinIO, despleg
 </td>
 <td width="50%">
 
-### 📊 Análisis de Big Data
-**2024** | Apache Spark | Ciencia de Datos
+### 📈 [Análisis de Criminalidad en Perú](https://github.com/YamiDarknezz/peru-crime-analysis)
+**2025** | Apache Spark | Ciencia de Datos
 
-Procesamiento y análisis de grandes volúmenes de datos usando Apache Spark y Pandas.
+Análisis exploratorio integral de delitos denunciados y percepción ciudadana en la PNP (2019-2023) utilizando datos abiertos oficiales del Gobierno Peruano.
 
-**Tecnologías:** Python, Apache Spark, Pandas
+**Tecnologías:** Python, Apache Spark, Pandas, Seaborn, Estadística
 
 </td>
 </tr>
