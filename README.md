@@ -166,12 +166,15 @@ Análisis exploratorio integral de delitos denunciados y percepción ciudadana e
 </td>
 <td width="50%">
 
-### 🖥️ Infraestructura Windows Server
-**2024** | Active Directory | Redes
+### 🔥 [TaskForge API – API Profesional de Tareas](https://github.com/YamiDarknezz/task-forge-api)
 
-Infraestructura empresarial con DNS, DHCP, grupos de trabajo y políticas de seguridad.
+**2025** | Flask | SQLAlchemy | Azure | CI/CD
 
-**Tecnologías:** Windows Server, AD, DNS, DHCP
+API REST avanzada con JWT, RBAC, rate limiting y documentación Swagger.
+Incluye **268 tests**, >73% coverage, análisis SonarCloud, pruebas AXE y CI/CD completo con despliegue a Azure.
+
+**Tecnologías:** Flask, SQLAlchemy, Azure SQL, Pytest, Docker, SonarCloud, GitHub Actions
+**🌐 Demo:** [https://task-forge-gbd6h8gtg8hchve9.chilecentral-01.azurewebsites.net/api/docs](https://task-forge-gbd6h8gtg8hchve9.chilecentral-01.azurewebsites.net/api/docs)
 
 </td>
 </tr>
