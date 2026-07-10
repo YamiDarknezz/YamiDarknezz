@@ -2,7 +2,7 @@
 
 # 👋 Hola, soy Gerardo Erick Plasencia Torres
 
-### 💻 Full Stack Developer Trainee | Python & Angular | Cloud & DevOps | IoT
+### 💻 Analista de Desarrollo | Automatización, Integración de Datos e Infraestructura
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gerardo-plasencia)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:erick.plasencia54@gmail.com)
@@ -15,14 +15,14 @@
 
 ## 🚀 Sobre Mí
 
-> **Estudiante de Ingeniería de Sistemas (9no ciclo)** en la Universidad Privada del Norte | **Full Stack Developer Trainee** en Pauser Distribuciones
+> **Estudiante de Ingeniería de Sistemas (9no ciclo)** — Universidad Privada del Norte | **Analista de Desarrollo** en Pauser Distribuciones
 
-Soy un desarrollador apasionado de **Trujillo, Perú 🇵🇪**, próximo a egresar en Diciembre 2026. Construyo **sistemas en producción desde cero** — migrando procesos críticos de Excel/Google Forms a plataformas web propias. Experiencia con **Python/FastAPI**, **Angular**, **PostgreSQL**, **Docker** y automatización con **n8n** y bots de mensajería.
+Construyo **sistemas en producción desde cero**. Empecé como Full Stack Developer en Pauser Distribuciones y hoy, como **Analista de Desarrollo**, lidero la automatización, integración de datos e infraestructura que impulsa las decisiones de toda la empresa.
 
-- 🔭 **Trabajo actual:** Trainee Full Stack en Pauser Distribuciones — sistemas de flota, inventarios, autenticación centralizada, picking y más
-- 🌱 **Aprendiendo:** Arquitecturas cloud, microservicios, machine learning
-- 💼 **Experiencia previa:** Pasante de Desarrollo en Clínica MedCorp (Flask + Angular + SQL Server)
-- 🎯 **Objetivos 2026:** Graduarme, profundizar en ML/cloud y seguir construyendo en producción
+- 🔭 **Ahora:** Analista de Desarrollo en Pauser — hardening VPS, integración PowerBI + ERP, automatización con n8n/bots, dashboards corporativos
+- 🛠️ **Antes:** Full Stack Developer en Pauser — diseñé e implementé MechGuard, CPT, AuthOps, Picking App y más desde cero
+- 🌱 **Aprendiendo:** Cloud computing, machine learning, arquitecturas escalables
+- 🎯 **Objetivo 2026:** Graduarme como Ingeniero de Sistemas (Dic) y seguir escalando en automatización empresarial
 - ⚡ **Dato curioso:** Transformo café en código ☕➡️💻
 
 ---
@@ -60,12 +60,16 @@ Soy un desarrollador apasionado de **Trujillo, Perú 🇵🇪**, próximo a egre
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ### Automatización & BI
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
 
 ### Redes & Hardware
 ![Cisco](https://img.shields.io/badge/CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
@@ -171,12 +175,12 @@ Robot araña de 4 patas con 12 servos SG90, impresión 3D, transmisión de video
 <tr>
 <td width="50%">
 
-### 📊 Análisis de Criminalidad Perú
-**Universitario**
+### 🔄 Extractor Chess — ERP Integration
+**Pauser** · Producción
 
-Análisis exploratorio de delitos denunciados y percepción ciudadana en Perú (2019-2023) con datos abiertos del Gobierno Peruano. Correlaciones, tendencias y visualizaciones.
+ETL desde ERP Progress OpenEdge hacia PostgreSQL que alimenta los dashboards PowerBI corporativos. Datos de ventas, inventarios y facturación sincronizados diariamente.
 
-**Stack:** Python + PySpark + Pandas + Seaborn + Jupyter
+**Stack:** Python + pyodbc + Progress OpenEdge ODBC + pandas
 
 </td>
 <td width="50%">
@@ -196,16 +200,25 @@ Carro RC con detección de objetos en tiempo real (YOLOv8) vía ESP32-CAM. Dos m
 
 ## 💼 Experiencia Profesional
 
-### 🏢 Trainee de Desarrollo Full Stack | Pauser Distribuciones S.A.C.
-**Enero 2026 — Actualidad · Trujillo, Perú**
+### 🏢 Analista de Desarrollo — Mejora Continua | Pauser Distribuciones S.A.C.
+**Julio 2026 — Actualidad · Trujillo, Perú**
+
+- Administración y hardening del VPS corporativo: auditoría de seguridad integral, firewall, fail2ban, SSL para PostgreSQL, monitoreo continuo
+- Desarrollo de APIs para integración PowerBI + OneDrive + SharePoint (ETL Excel/CSV → PostgreSQL)
+- Automatización de reportes y alertas operativas con Power Automate, n8n y bots de WhatsApp/Telegram
+- Gestión de reporting y dashboards PowerBI para todas las áreas de la empresa
+- Migración y mantenimiento de sistemas en producción: MechGuard, CPT, AuthOps, Picking
+
+### 🏢 Full Stack Developer & Sysadmin | Pauser Distribuciones S.A.C.
+**Enero 2026 — Junio 2026 · Trujillo, Perú**
 
 - Diseñé e implementé **MechGuard**, sistema de gestión de flota vehicular en uso diario (FastAPI + Angular 21 + Redis + MinIO + bots WhatsApp/Telegram)
-- Desarrollé **CPT**, control de inventarios con app Android en Kotlin, ETL automatizado vía n8n y alertas de vencimiento
-- Migré control de productos de Excel a **PowerBI** con actualización automatizada desde ERP Chess
+- Desarrollé **CPT**, control de inventarios con app Android en Kotlin, ETL automatizado vía n8n
 - Implementé **AuthOps**, API centralizada de autenticación con RBAC y blacklist de tokens en Redis
 - Construí app de **picking para Mondelez** con WebSockets en tiempo real
-- Configuré y administro **VPS Ubuntu** con Dokploy, dominio y microservicios
-- Automatización con **Telegram Bots** y **Evolution API (WhatsApp)**
+- Migré control de productos de Excel a **PowerBI** con actualización automatizada desde ERP Chess
+- Configuré y administré **VPS Ubuntu** con Dokploy, dominio corporativo y microservicios
+- Construí **Extractor Chess**: ETL desde ERP Progress OpenEdge hacia PostgreSQL (pyodbc + pandas)
 
 ### 🏥 Pasante de Desarrollo | Clínica Ocupacional MedCorp S.A.C.
 **Agosto 2025 — Noviembre 2025 · Lima, Perú**
