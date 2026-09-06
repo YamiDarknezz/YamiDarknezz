@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="darknezz-logo.png" alt="Darknezz" width="56" height="56" />
+<img src="darknezz-logo.png" alt="Darknezz" width="60" height="60" />
 
 # Gerardo Erick Plasencia Torres
 ### Analista de Desarrollo & Sysadmin | Full Stack Developer
@@ -28,89 +28,97 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde a
 
 ## 🏆 Proyectos Destacados
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ [darknezz-infra](https://github.com/YamiDarknezz/darknezz-infra)
-**Infraestructura como Código (IaC) & Server Hardening**
-
-Línea base de aprovisionamiento y endurecimiento para servidores Linux en producción:
-- Reverse proxy perimetral con **Traefik v3** y SSL wildcard automático (`*.darknezz.dev`) vía Cloudflare DNS API.
-- Orquestación de contenedores mediante **Dokploy** y Docker Compose.
-- Hardening en capas: UFW estricto, llaves SSH Ed25519 exclusivas (sin root/passwords), Fail2ban activo y observabilidad con **Prometheus** y **Grafana**.
-
-```bash
-Stack: Docker · Traefik v3 · Dokploy · Linux Ubuntu · Cloudflare DNS · Prometheus · Grafana
-```
-🔗 **[Ver Repositorio](https://github.com/YamiDarknezz/darknezz-infra)**
-
-</td>
-<td width="50%" valign="top">
-
-### 📦 [inventory-api](https://github.com/YamiDarknezz/inventory-api)
-**API REST Empresarial con Spring Boot 3 & Java 21**
-
-Servicio backend de gestión de inventarios y control de stock bajo estándares de ingeniería de software:
-- Autenticación segura mediante **JWT** con control de acceso basado en roles (**RBAC**).
-- Validación estricta de DTOs, manejo global de excepciones y persistencia relacional en **PostgreSQL**.
-- Documentación viva e interactiva desplegada en producción con **Swagger / OpenAPI**.
-
-```bash
-Stack: Java 21 · Spring Boot 3 · PostgreSQL · Spring Security · JWT · Swagger UI · Docker
-```
-🔗 **[Ver Repositorio](https://github.com/YamiDarknezz/inventory-api)** · 🌐 **[Swagger en Vivo](https://api-inventory.darknezz.dev/swagger-ui/index.html)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ Pauser Maestros (Extractor Maestro)
-**Motor ETL Multi-Proveedor & Replicación de Datos**
-
-Middleware de ingesta de alto rendimiento para desacoplar proveedores externos críticos:
-- Ingesta incremental desde el ERP corporativo (Progress OpenEdge/ODBC), combustible Primax y telemetría de flotas ProGPS.
-- Aislamiento de licencias mediante `asyncio.Semaphore` y procesamiento vectorial en memoria con DataFrames de **Polars**.
-- Upserts atómicos en **PostgreSQL**, reduciendo tiempos de consulta de >8s a **<15ms** para todos los microservicios satélite.
-
-```bash
-Stack: Python · FastAPI · Polars · PostgreSQL · asyncio · Progress OpenEdge · Docker
-```
-📖 **[Ver Caso de Estudio en darknezz.dev](https://darknezz.dev)** *(Código propietario Pauser)*
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [Darknezz.dev](https://darknezz.dev)
-**Portafolio Web Reactivo & Hub de Arquitectura**
-
-Single Page Application construida con los últimos estándares del ecosistema frontend:
-- Arquitectura pura en **Angular 21** con Standalone Components, **Signals & LinkedSignal**.
-- Diseño modular con **Tailwind CSS v4**, micro-interacciones suaves con GSAP y soporte PWA.
-- Fichas técnicas interactivas y casos de estudio detallados de arquitectura y resiliencia.
-
-```bash
-Stack: Angular 21 · TypeScript · Signals · Tailwind CSS v4 · GSAP · PWA
-```
-🌐 **[Explorar Sitio Web](https://darknezz.dev)** · 📄 **[Descargar CV](https://darknezz.dev/CV_Gerardo_Plasencia.pdf)**
-
-</td>
-</tr>
-</table>
+### 🛡️ [darknezz-infra](https://github.com/YamiDarknezz/darknezz-infra) — Baseline Server Hardening & GitOps
+> Plataforma de aprovisionamiento e infraestructura como código (IaC) para servidores Linux en producción:
+> - **Ingress Seguro:** Reverse proxy con **Traefik v3** y emisión automatizada de certificados wildcard SSL (`*.darknezz.dev`) vía Cloudflare DNS API.
+> - **Orquestación PaaS:** Despliegue y administración de contenedores mediante **Dokploy** y Docker Compose.
+> - **Hardening Host:** UFW estricto (solo 22 y 443), llaves SSH Ed25519 (bloqueo total de root/passwords), Fail2ban activo y observabilidad con **Prometheus & Grafana**.
+>
+> ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Traefik](https://img.shields.io/badge/Traefik_v3-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white) ![Dokploy](https://img.shields.io/badge/Dokploy-181717?style=flat-square&logo=docker&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare_DNS-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+>
+> 🔗 **[Ver Repositorio en GitHub](https://github.com/YamiDarknezz/darknezz-infra)**
 
 ---
 
-## 🛠️ Stack Tecnológico
+### 📦 [inventory-api](https://github.com/YamiDarknezz/inventory-api) — API REST Empresarial en Java 21 & Spring Boot 3
+> Servicio backend de gestión de inventarios y control de stock bajo estándares de ingeniería de software:
+> - **Seguridad & RBAC:** Autenticación mediante **JWT** y control de accesos granular basado en roles.
+> - **Arquitectura & Calidad:** Validación estricta de DTOs, persistencia relacional con Spring Data JPA sobre **PostgreSQL**, y arquitectura limpia por capas.
+> - **Documentación Viva:** Especificación OpenAPI 3.0 con interfaz **Swagger UI** interactiva desplegada en producción.
+>
+> ![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger_OpenAPI-85EA2D?style=flat-square&logo=swagger&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+>
+> 🔗 **[Ver Repositorio en GitHub](https://github.com/YamiDarknezz/inventory-api)** · 🌐 **[Swagger UI en Vivo](https://api-inventory.darknezz.dev/swagger-ui/index.html)**
 
-| Capa | Tecnologías |
-| :--- | :--- |
-| **Backend & APIs** | Python, FastAPI, Java 21, Spring Boot 3, Flask, RESTful APIs, JWT, RBAC Jerárquico, SQLAlchemy, Alembic, Node.js |
-| **Frontend** | Angular 21+, TypeScript, Angular Signals & LinkedSignal, Standalone Components, RxJS, Tailwind CSS v4, SCSS, PWA |
-| **Datos & Storage** | PostgreSQL, SQL Server, Redis (Caché & Colas), Polars (Vectorial en Memoria), Supabase, MinIO (S3 Object Storage) |
-| **DevOps & Sysadmin** | Linux Server (Ubuntu 24.04 LTS), Docker, Dokploy PaaS, Traefik v3, UFW Firewall, Fail2ban, Cloudflare DNS, GitHub Actions (CI/CD) |
-| **BI & Automatización** | Power BI (Modelado & DAX), Power Automate, n8n Workflows, Evolution API (WhatsApp Business), Telegram Bots |
-| **Redes & Seguridad** | Cisco CCNA (Routing & Switching), Cisco Cybersecurity Essentials, Hacker Ético, VLANs, SSH Hardening |
+---
+
+### ⚡ Pauser Maestros (Extractor Maestro) — Ingesta & Replicación Multi-Proveedor
+> Middleware de ingesta de alto rendimiento para desacoplar proveedores externos críticos en Pauser Distribuciones SAC:
+> - **Desacoplamiento Absoluto:** Extracción incremental desde ERP corporativo (Progress OpenEdge/ODBC), combustible Primax y telemetría de flotas ProGPS.
+> - **Alto Rendimiento:** Control de concurrencia con `asyncio.Semaphore` y procesamiento vectorial en memoria con DataFrames de **Polars**.
+> - **Latencias <15ms:** Replicación limpia en **PostgreSQL** mediante upserts atómicos masivos, reduciendo tiempos de consulta de >8s a milisegundos para microservicios internos.
+>
+> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+>
+> 📖 **[Ver Caso de Estudio en darknezz.dev](https://darknezz.dev)** *(Código propietario Pauser)*
+
+---
+
+### 🌐 [Darknezz.dev](https://darknezz.dev) — Portafolio Web Reactivo & Hub de Arquitectura
+> Single Page Application construida con los últimos estándares del ecosistema frontend:
+> - **Reactividad Moderna:** 100% Standalone Components en **Angular 21** con **Signals & LinkedSignal** para estado puro.
+> - **UI & Rendimiento:** Estilizado moderno con **Tailwind CSS v4**, micro-animaciones con GSAP, soporte PWA y compilación con 0 errores.
+> - **Casos de Estudio Técnicos:** Documentación interactiva de AuthOps, MechGuard, Extractor Maestro y Darknezz-Infra.
+>
+> ![Angular 21](https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+>
+> 🌐 **[Explorar darknezz.dev](https://darknezz.dev)** · 📄 **[Descargar CV Ejecutivo](https://darknezz.dev/CV_Gerardo_Plasencia.pdf)**
+
+---
+
+## 💻 Stack Tecnológico
+
+### Backend & APIs
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+### Frontend Engineering
+![Angular](https://img.shields.io/badge/Angular_21-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
+
+### Bases de Datos & Storage
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO_S3-C72C48?style=for-the-badge&logo=minio&logoColor=white)
+
+### Infraestructura & DevOps (Sysadmin)
+![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04_LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Dokploy](https://img.shields.io/badge/Dokploy_PaaS-181717?style=for-the-badge&logo=docker&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik_v3-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_DNS-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Linux Hardening](https://img.shields.io/badge/Linux_Hardening-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Business Intelligence & Automatización
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n_Workflows-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![WhatsApp API](https://img.shields.io/badge/WhatsApp_Evolution_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+
+### Redes & Ciberseguridad
+![Cisco CCNA](https://img.shields.io/badge/Cisco_CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity_Essentials-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Hacker Etico](https://img.shields.io/badge/Hacker_Etico_Cisco-000000?style=for-the-badge&logo=cisco&logoColor=white)
 
 ---
 
