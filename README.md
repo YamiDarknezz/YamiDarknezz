@@ -16,11 +16,11 @@
 
 ## 🚀 Perfil Profesional
 
-Ingeniero de software y Sysadmin enfocado en la **construcción de sistemas en producción, infraestructura segura sobre Linux y pipelines de datos de alto rendimiento**. 
+Ingeniero de software y Sysadmin enfocado en la **construcción de sistemas en producción, infraestructura segura sobre Linux y pipelines de datos de alto rendimiento**.
 
-Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde asumí la gobernanza integral del servidor de producción (Ubuntu 24.04 LTS con 30+ contenedores bajo Docker, Dokploy y Traefik) y diseñé el ecosistema de microservicios corporativos: autenticación centralizada (**AuthOps**), telemetría de flotas vehiculares (**MechGuard**), portal web unificado (**Frontend-Central**) y motor de ingesta de datos (**Extractor Maestro**), además de pipelines ETL hacia **Power BI** y automatizaciones operativas con **n8n**, **Power Automate** y bots de mensajería.
+Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde **lidero un equipo de 4 desarrolladores trainee** (revisión de código, corrección de errores y gobernanza de repositorios corporativos vía issues) y asumí la gobernanza integral del servidor de producción (Ubuntu 24.04 LTS con 30+ contenedores bajo Docker, Dokploy y Traefik). Diseño y mantengo el ecosistema de microservicios corporativos: identidad centralizada (**AuthOps**), telemetría de flotas (**MechGuard**), plataforma comercial y de fuerza de ventas (**Plataforma Comercial**), portal web unificado (**Frontend-Central**) y motor de ingesta de datos (**Extractor Maestro**), además de pipelines ETL hacia **Power BI** y automatizaciones con **n8n**, **Power Automate** y bots de mensajería.
 
-- 🎓 **Formación:** Estudiante de último ciclo de Ingeniería de Sistemas Computacionales (egreso Dic 2026) en la Universidad Privada del Norte.
+- 🎓 **Formación:** Ingeniería de Sistemas Computacionales — Universidad Privada del Norte (UPN).
 - 📜 **Certificaciones Oficiales Cisco:** Hacker Ético, CCNA 2 (SRWE), CCNA 1 (ITN) y Cybersecurity Essentials.
 - 📍 **Disponibilidad:** Remoto / Híbrido / Presencial (Trujillo / Lima, Perú).
 
@@ -52,6 +52,18 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde a
 
 ---
 
+### 🛒 Plataforma Comercial (Misiones) — Inteligencia Comercial & Fuerza de Ventas
+> Ecosistema corporativo de **4 microservicios + PWA** para campañas comerciales, misiones en ruta y metas de venta en más de 10 sedes operativas:
+> - **SSO Central (JWT RS256):** Autenticación asimétrica con **OTP por Telegram** y contraseña Argon2id; validación descentralizada en memoria en cada microservicio.
+> - **Analítica sin duplicar datos:** Tablas fantasma con `postgres_fdw` en tiempo real sobre **más de 50,000 clientes y alto volumen de comprobantes**; campañas segmentadas (inactividad de SKU, Pareto, cobertura) entregadas al vendedor por **bot de Telegram** (cola Redis + worker asíncrono) con verificación nocturna de cumplimiento.
+> - **Metas, calendario y gamificación:** Carga de presupuestos con sanitización profunda de Excel (`openpyxl` + token anti-error), aprobaciones, días hábiles, notificaciones SSE y **Álbum Panini** (avance real por cliente).
+>
+> ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Angular 21](https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+>
+> 📖 **[Ver Caso de Estudio en darknezz.dev](https://darknezz.dev)** *(Código propietario)*
+
+---
+
 ### ⚡ Extractor Maestro — Ingesta & Replicación Multi-Proveedor
 > Middleware de ingesta de alto rendimiento para desacoplar proveedores externos críticos en Pauser Distribuciones SAC:
 > - **Desacoplamiento Absoluto:** Extracción incremental desde ERP corporativo, red de combustible y telemetría de flotas GPS.
@@ -68,11 +80,28 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde a
 > Single Page Application construida con los últimos estándares del ecosistema frontend:
 > - **Reactividad Moderna:** 100% Standalone Components en **Angular 21** con **Signals & LinkedSignal** para estado puro.
 > - **UI & Rendimiento:** Estilizado moderno con **Tailwind CSS v4**, micro-animaciones con GSAP, soporte PWA y compilación con 0 errores.
-> - **Casos de Estudio Técnicos:** Documentación interactiva de AuthOps, MechGuard, Extractor Maestro y Darknezz-Infra.
+> - **Casos de Estudio Técnicos:** Documentación interactiva de AuthOps, MechGuard, Plataforma Comercial, Extractor Maestro y Darknezz-Infra.
 >
 > ![Angular 21](https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 >
 > 🌐 **[Explorar darknezz.dev](https://darknezz.dev)** · 📄 **[Descargar CV Ejecutivo](https://darknezz.dev/CV_Gerardo_Plasencia.pdf)**
+
+---
+
+## 📂 Otros Proyectos
+
+| Repositorio | Stack | Descripción |
+| :--- | :--- | :--- |
+| [CPT-UPN](https://github.com/YamiDarknezz/CPT-UPN) ⭐ | Kotlin · FastAPI | Sistema inclusivo de inventario y alertas de vencimiento: app Android nativa + backend REST con notificaciones push (FCM). |
+| [NexaSupply](https://github.com/YamiDarknezz/NexaSupply) | Angular · FastAPI | Demo SaaS B2B de compras mayoristas e inventario en tiempo real. |
+| [playwright-test-automation-demo](https://github.com/YamiDarknezz/playwright-test-automation-demo) | TypeScript · Playwright | Framework de pruebas de API, integración y E2E con CI en GitHub Actions. |
+| [angular-canvas](https://github.com/YamiDarknezz/angular-canvas) | Angular · SCSS | Biblioteca viva de 52 componentes visuales para Angular, listos para copiar y pegar. |
+| [task-forge-api](https://github.com/YamiDarknezz/task-forge-api) | Flask · Azure SQL | API RESTful profesional de gestión de tareas con SQLAlchemy. |
+| [peru-crime-analysis](https://github.com/YamiDarknezz/peru-crime-analysis) | Python · Pandas | Análisis exploratorio de criminalidad denunciada y percepción ciudadana en Perú (2019–2023) con datos abiertos. |
+| [esp32-quadruped-robot](https://github.com/YamiDarknezz/esp32-quadruped-robot) | ESP32 · C++ | Robot cuadrúpedo con transmisión de video en tiempo real y control remoto vía WiFi. |
+| [ESP32-YOLO-RC](https://github.com/YamiDarknezz/ESP32-YOLO-RC) | ESP32-CAM · YOLOv8 | Carro RC con detección de objetos en tiempo real mediante visión por computadora. |
+| [enterprise-network-ipv4-ipv6-lab](https://github.com/YamiDarknezz/enterprise-network-ipv4-ipv6-lab) | Cisco · IPv4/IPv6 | Red empresarial multi-router con VLSM, enrutamiento estático y direccionamiento dual. |
+| [OSPF-Demo](https://github.com/YamiDarknezz/OSPF-Demo) | Cisco · OSPF | Implementación de enrutamiento dinámico OSPF sobre topología multi-router. |
 
 ---
 
@@ -91,6 +120,7 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde a
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
 ### Bases de Datos & Storage
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -114,6 +144,7 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde a
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n_Workflows-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![WhatsApp API](https://img.shields.io/badge/WhatsApp_Evolution_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 
 ### Redes & Ciberseguridad
 ![Cisco CCNA](https://img.shields.io/badge/Cisco_CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
@@ -127,8 +158,11 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde a
 ```text
 Pauser Distribuciones S.A.C. | Trujillo, Perú (más de 10 sedes operativas)
 ├── Analista de Desarrollo de Software & Sysadmin ────────────── [Jul 2026 — Actualidad]
+│   • Liderazgo técnico: equipo de 4 desarrolladores trainee (code review, corrección de errores y
+│     gobernanza de repositorios corporativos con apertura de issues de mejora).
 │   • Gobernanza del servidor VPS (Ubuntu 24.04 LTS) con 30+ contenedores bajo Dokploy y Traefik.
-│   • Arquitectura de microservicios: AuthOps (IAM Centralizado), MechGuard (Flota), Extractor Maestro (ETL).
+│   • Arquitectura de microservicios: AuthOps (IAM Centralizado), MechGuard (Flota),
+│     Plataforma Comercial (Ventas) y Extractor Maestro (ETL).
 │   • Pipelines de ingesta desde ERP, Excel y SharePoint hacia PostgreSQL; dashboards ejecutivos en Power BI.
 │   • Automatización de alertamiento temprano y reportes operativos vía Power Automate, n8n y WhatsApp bots.
 │
@@ -147,7 +181,7 @@ Clínica Ocupacional MedCorp S.A.C. | Lima, Perú
 
 ## 🎓 Educación & Certificaciones
 
-- **Ingeniería de Sistemas Computacionales** — Universidad Privada del Norte (UPN) | *Mar 2022 – Dic 2026 (Último ciclo)*
+- **Ingeniería de Sistemas Computacionales** — Universidad Privada del Norte (UPN) | *Mar 2022 – Dic 2026*
 - **Hacker Ético** — Cisco Networking Academy
 - **CCNA: Switching, Routing, and Wireless Essentials (CCNA 2)** — Cisco Networking Academy
 - **CCNA: Introduction to Networks (CCNA 1)** — Cisco Networking Academy
