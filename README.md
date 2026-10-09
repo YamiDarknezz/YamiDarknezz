@@ -18,7 +18,7 @@
 
 Ingeniero de software y Sysadmin enfocado en la **construcción de sistemas en producción, infraestructura segura sobre Linux y pipelines de datos de alto rendimiento**.
 
-Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde **lidero un equipo de 4 desarrolladores trainee** (revisión de código, corrección de errores y gobernanza de repositorios corporativos vía issues) y asumí la gobernanza integral del servidor de producción (Ubuntu 24.04 LTS con 30+ contenedores bajo Docker, Dokploy y Traefik). Diseño y mantengo el ecosistema de microservicios corporativos: identidad centralizada (**AuthOps**), telemetría de flotas (**MechGuard**), plataforma comercial y de fuerza de ventas (**Plataforma Comercial**), portal web unificado (**Frontend-Central**) y motor de ingesta de datos (**Extractor Maestro**), además de pipelines ETL hacia **Power BI** y automatizaciones con **n8n**, **Power Automate** y bots de mensajería.
+Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde **lidero un equipo de 4 desarrolladores trainee** y asumí la gobernanza integral del servidor de producción (Ubuntu 24.04 LTS con 30+ contenedores bajo Docker, Dokploy y Traefik). Diseño y mantengo el ecosistema de microservicios corporativos: identidad centralizada (**AuthOps**), telemetría de flotas (**MechGuard**), plataforma comercial y de fuerza de ventas (**Plataforma Comercial**), portal web unificado (**Frontend-Central**) y motor de ingesta de datos (**Extractor Maestro**), además de pipelines ETL hacia **Power BI** y automatizaciones con **n8n**, **Power Automate** y bots de mensajería.
 
 - 🎓 **Formación:** Ingeniería de Sistemas Computacionales — Universidad Privada del Norte (UPN).
 - 📜 **Certificaciones Oficiales Cisco:** Hacker Ético, CCNA 2 (SRWE), CCNA 1 (ITN) y Cybersecurity Essentials.
@@ -158,8 +158,7 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde *
 ```text
 Pauser Distribuciones S.A.C. | Trujillo, Perú (más de 10 sedes operativas)
 ├── Analista de Desarrollo de Software & Sysadmin ────────────── [Jul 2026 — Actualidad]
-│   • Liderazgo técnico: equipo de 4 desarrolladores trainee (code review, corrección de errores y
-│     gobernanza de repositorios corporativos con apertura de issues de mejora).
+│   • Liderazgo de proyecto: equipo de 4 desarrolladores trainee.
 │   • Gobernanza del servidor VPS (Ubuntu 24.04 LTS) con 30+ contenedores bajo Dokploy y Traefik.
 │   • Arquitectura de microservicios: AuthOps (IAM Centralizado), MechGuard (Flota),
 │     Plataforma Comercial (Ventas) y Extractor Maestro (ETL).
