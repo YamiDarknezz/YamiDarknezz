@@ -84,7 +84,7 @@ Actualmente en **Pauser Distribuciones SAC** (Área de Mejora Continua), donde *
 >
 > ![Angular 21](https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 >
-> 🌐 **[Explorar darknezz.dev](https://darknezz.dev)** · 📄 **[Descargar CV Ejecutivo](https://darknezz.dev/CV_Gerardo_Plasencia.pdf)**
+> 🌐 **[Explorar darknezz.dev](https://darknezz.dev)** · 📄 **[Descargar CV Ejecutivo](https://darknezz.dev/CV_GERARDO_PLASENCIA.pdf)**
 
 ---
 
